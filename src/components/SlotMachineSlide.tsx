@@ -26,12 +26,12 @@ export const SlotMachineSlide = ({
     
     setIsSpinning(true);
     
-    // Animate for 18 seconds then show result
+    // Animate for 8 seconds then show result
     setTimeout(() => {
       setIsSpinning(false);
       setShowResult(true);
       createConfetti();
-    }, 18000);
+    }, 8000);
   };
 
   const createConfetti = () => {
